@@ -88,13 +88,15 @@
                 </div>
             </div>
            
-            <!--TODO: Create another row and place a fifth chart in that row-->   
+            <!--Create another row and place a fifth chart in that row-->        
             <div class="row mb-6">
-                <div class="col-12">
-                  <div id="{{ids[4]}}"></div>
+              <div class="col-12">
+                <div id="chart5">
+                    <div id="{{ids[4]}}"></div>
                 </div>
+              </div>
             </div>
-
+                  
         </div>
     <div>
 </div>
@@ -109,7 +111,7 @@
 
     <script type="text/javascript">
         // plots the figure with id
-        // id must match the div id above in the html
+        // id much match the div id above in the html
         var figures = {{figuresJSON | safe}};
         var ids = {{ids | safe}};
         for(var i in figures) {
