@@ -32,3 +32,8 @@ The `heroku` branch contains code that can be deployed over to [Heroku](https://
 
 On a MacOS/linux system, installation is easy. Open a terminal, and 
 go into the directory with the flask app files. Run `python worldbank.py` in the terminal.
+
+## Deploying to Heroku
+
+For deploying this app to Heroku, switch to the [heroku branch](https://github.com/aaakashkumar/World-Bank-API-Data-Dashboard/tree/heroku) and read the instructions 
+given in the README.md file
