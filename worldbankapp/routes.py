@@ -14,10 +14,6 @@ def index():
 
     # Convert the plotly figures to JSON for javascript in html template
     figuresJSON = json.dumps(figures, cls=plotly.utils.PlotlyJSONEncoder)
-    
-    # print("ids:\n", ids)
-    # print("figures:\n", figures)
-    # print("figuresJSON:\n", figuresJSON)
 
     return render_template('index.html',
                            ids=ids,
